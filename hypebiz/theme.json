@@ -1,238 +1,543 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
-	"customTemplates": [
-		{
-			"name": "blank-canvas",
-			"title": "Blank Canvas"
-		},
-		{
-			"name": "template-basic",
-			"title": "Basic Template"
-		}
+    "$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+    "customTemplates": [
+        {
+            "name": "blank-canvas",
+            "title": "Blank canvas",
+            "postTypes": [
+                "post",
+                "page"
+            ]
+        },
+        {
+            "name": "full-width",
+            "title": "Full Width",
+            "postTypes": [
+                "post",
+                "page"
+            ]
+        }
     ],
-	"settings": {
-		"appearanceTools": true,
-		"color": {
-			"gradients": [
-				{
-					"gradient": "linear-gradient(160deg, var(--wp--preset--color--quinary), var(--wp--preset--color--septenary))",
-					"name": "Pink to Yellow",
-					"slug": "quinary-to-septenary"
-				}
-			],
-			"palette": [
-				{
-					"color": "#121222",
-					"name": "Primary",
-					"slug": "primary"
-				},
-				{
-					"color": "#645aff",
-					"name": "Secondary",
-					"slug": "secondary"
-				},
-				{
-					"color": "#4E45D9",
-					"name": "Third",
-					"slug": "third"
-				},
-				{
-					"color": "#19182f",
-					"name": "Fourth",
-					"slug": "fourth"
-				},
-				{
-					"color": "#242241",
-					"name": "Fifth",
-					"slug": "fifth"
-				},
-				{
-					"color": "#292944",
-					"name": "Sixth",
-					"slug": "sixth"
-				},
-				{
-					"color": "#666666",
-					"name": "Seven",
-					"slug": "seven"
-				},
-				{
-					"color": "#F3F3F3",
-					"name": "Eight",
-					"slug": "eight"
-				},
-				{
-					"color": "#E6E6E6",
-					"name": "Nine",
-					"slug": "nie"
-				},
-				{
-					"color": "#3B5998",
-					"name": "Ten",
-					"slug": "ten"
-				},
-				{
-					"color": "#0A64BC",
-					"name": "Eleven",
-					"slug": "eleven"
-				},
-				{
-					"color": "#00ACEE",
-					"name": "Twelve",
-					"slug": "twelve"
-				},
-				{
-					"color": "#00B9FF",
-					"name": "Thirteen",
-					"slug": "thirteen"
-				},
-				{
-					"color": "#0077B5",
-					"name": "Fourteen",
-					"slug": "fourteen"
-				},
-				{
-					"color": "#00A0DC",
-					"name": "Fifteen",
-					"slug": "fifteen"
-				},
-				{
-					"color": "#17A74D",
-					"name": "Sixthteen",
-					"slug": "sixthteen"
-				},
-				{
-					"color": "#F3F3F3",
-					"name": "Seventeen",
-					"slug": "seventeen"
-				}
-			]
-		},
-		"custom": {
-			"headings": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--primary)"
-				}
-			}
-		},
-		"layout": {
-			"contentSize": "1140px",
-			"wideSize": "1200px"
-		},
-		"spacing": {
-			"units": [
-				"px",
-				"em",
-				"rem",
-				"vh",
-				"vw"
-			]
-		},
-		"typography": {
-			"customFontSize": true,
-			"fontFamilies": [
-				{
-					"fontFamily": "'Cormorant Garamond'",
-					"name": "Cormorant Garamond",
-					"slug": "primary"
-				},
-				{
-					"fontFamily": "'Open Sans'",
-					"name": "Open Sans",
-					"slug": "secondary"
-				}
-			],
-			"fontSizes": [
-				{
-					"name": "Tiny",
-					"size": "16px",
-					"slug": "tiny"
-				},
-				{
-					"name": "Small",
-					"size": "18px",
-					"slug": "small"
-				},
-				{
-					"name": "Normal",
-					"size": "20px",
-					"slug": "normal"
-				},
-				{
-					"name": "Large",
-					"size": "24px",
-					"slug": "large"
-				},
-				{
-					"name": "Extra large",
-					"size": "40px",
-					"slug": "extra-large"
-				},
-				{
-					"name": "Huge",
-					"size": "96px",
-					"slug": "huge"
-				},
-				{
-					"name": "Gigantic",
-					"size": "144px",
-					"slug": "gigantic"
-				}
-			]
-		}
-	},
-	"styles": {
-		"color": {
-			"background": "#ffffff",
-			"text": "#121222"
-		},
-		"elements": {
-			"h1": {
-				"typography": {
-					"fontFamily": "var(--wp--custom--headings--typography--font-family)"
-				}
-			},
-			"h2": {
-				"typography": {
-					"fontFamily": "var(--wp--custom--headings--typography--font-family)"
-				}
-			},
-			"h3": {
-				"typography": {
-					"fontFamily": "var(--wp--custom--headings--typography--font-family)"
-				}
-			},
-			"h4": {
-				"typography": {
-					"fontFamily": "var(--wp--custom--headings--typography--font-family)"
-				}
-			},
-			"h5": {
-				"typography": {
-					"fontFamily": "var(--wp--custom--headings--typography--font-family)"
-				}
-			},
-			"h6": {
-				"typography": {
-					"fontFamily": "var(--wp--custom--headings--typography--font-family)"
-				}
-			},
-			"link": {
-				"color": {
-					"text": "#645aff"
-				}
-			}
-		}
-	},
-	"templateParts": [
-		{
-			"area": "header",
-			"name": "header"
-		},
-		{
-			"area": "footer",
-			"name": "footer"
-		}
-	],
-	"version": 2
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "gradients": [],
+            "palette": [
+                {
+                    "slug": "primary",
+                    "name": "Primary (Legacy)",
+                    "color": "#121222"
+                },
+                {
+                    "slug": "secondary",
+                    "name": "Secondary (Legacy)",
+                    "color": "#645aff"
+                },
+                {
+                    "slug": "third",
+                    "name": "Third (Legacy)",
+                    "color": "#4e45d9"
+                },
+                {
+                    "slug": "fourth",
+                    "name": "Fourth (Legacy)",
+                    "color": "#19182f"
+                },
+                {
+                    "slug": "fifth",
+                    "name": "Fifth (Legacy)",
+                    "color": "#242241"
+                },
+                {
+                    "slug": "sixth",
+                    "name": "Sixth (Legacy)",
+                    "color": "#292944"
+                },
+                {
+                    "slug": "seven",
+                    "name": "Seven (Legacy)",
+                    "color": "#666666"
+                },
+                {
+                    "slug": "eight",
+                    "name": "Eight (Legacy)",
+                    "color": "#f3f3f3"
+                },
+                {
+                    "slug": "nie",
+                    "name": "Nine (Legacy)",
+                    "color": "#e6e6e6"
+                },
+                {
+                    "slug": "ten",
+                    "name": "Ten (Legacy)",
+                    "color": "#3b5998"
+                },
+                {
+                    "slug": "eleven",
+                    "name": "Eleven (Legacy)",
+                    "color": "#0a64bc"
+                },
+                {
+                    "slug": "twelve",
+                    "name": "Twelve (Legacy)",
+                    "color": "#00acee"
+                },
+                {
+                    "slug": "thirteen",
+                    "name": "Thirteen (Legacy)",
+                    "color": "#00b9ff"
+                },
+                {
+                    "slug": "fourteen",
+                    "name": "Fourteen (Legacy)",
+                    "color": "#0077b5"
+                },
+                {
+                    "slug": "fifteen",
+                    "name": "Fifteen (Legacy)",
+                    "color": "#00a0dc"
+                },
+                {
+                    "slug": "sixthteen",
+                    "name": "Sixthteen (Legacy)",
+                    "color": "#17a74d"
+                },
+                {
+                    "slug": "seventeen",
+                    "name": "Seventeen (Legacy)",
+                    "color": "#f3f3f3"
+                },
+                {
+                    "slug": "gv-color-primary",
+                    "name": "Primary",
+                    "color": "#121222"
+                },
+                {
+                    "slug": "gv-color-text-primary",
+                    "name": "Text Primary",
+                    "color": "#121222"
+                },
+                {
+                    "slug": "gv-color-text-secondary",
+                    "name": "Text Secondary",
+                    "color": "#666666"
+                },
+                {
+                    "slug": "gv-color-text-placeholder",
+                    "name": "Text Placeholder",
+                    "color": "#cacaca"
+                },
+                {
+                    "slug": "gv-color-accent",
+                    "name": "Accent",
+                    "color": "#645aff"
+                },
+                {
+                    "slug": "gv-color-accent-hover",
+                    "name": "Accent Hover",
+                    "color": "#4e45d9"
+                },
+                {
+                    "slug": "gv-color-background-primary",
+                    "name": "Background Primary",
+                    "color": "#ffffff"
+                },
+                {
+                    "slug": "gv-color-background-secondary",
+                    "name": "Background Secondary",
+                    "color": "#f3f3f3"
+                },
+                {
+                    "slug": "gv-color-background-tertiary",
+                    "name": "Background Tertiary",
+                    "color": "#e6e6e6"
+                },
+                {
+                    "slug": "gv-color-border",
+                    "name": "Border",
+                    "color": "#e6e6e6"
+                },
+                {
+                    "slug": "gv-color-border-input",
+                    "name": "Border Input",
+                    "color": "#f3f3f3"
+                },
+                {
+                    "slug": "gv-color-white",
+                    "name": "White",
+                    "color": "#ffffff"
+                },
+                {
+                    "slug": "gv-color-secondary",
+                    "name": "Secondary",
+                    "color": "#666666"
+                },
+                {
+                    "slug": "gv-color-dark-primary",
+                    "name": "Dark Primary",
+                    "color": "#ffffff"
+                },
+                {
+                    "slug": "gv-color-dark-text-primary",
+                    "name": "Dark Text Primary",
+                    "color": "#ffffff"
+                },
+                {
+                    "slug": "gv-color-dark-text-secondary",
+                    "name": "Dark Text Secondary",
+                    "color": "#d9dcde"
+                },
+                {
+                    "slug": "gv-color-dark-text-placeholder",
+                    "name": "Dark Text Placeholder",
+                    "color": "#d9dcde"
+                },
+                {
+                    "slug": "gv-color-dark-accent",
+                    "name": "Dark Accent",
+                    "color": "#645aff"
+                },
+                {
+                    "slug": "gv-color-dark-accent-hover",
+                    "name": "Dark Accent Hover",
+                    "color": "#4e45d9"
+                },
+                {
+                    "slug": "gv-color-dark-background-primary",
+                    "name": "Dark Background Primary",
+                    "color": "#121222"
+                },
+                {
+                    "slug": "gv-color-dark-background-secondary",
+                    "name": "Dark Background Secondary",
+                    "color": "#19182f"
+                },
+                {
+                    "slug": "gv-color-dark-background-tertiary",
+                    "name": "Dark Background Tertiary",
+                    "color": "#292944"
+                },
+                {
+                    "slug": "gv-color-dark-border",
+                    "name": "Dark Border",
+                    "color": "#ffffff4d"
+                },
+                {
+                    "slug": "gv-color-dark-border-input",
+                    "name": "Dark Border Input",
+                    "color": "#ffffff66"
+                },
+                {
+                    "slug": "gv-color-dark-secondary",
+                    "name": "Dark Secondary",
+                    "color": "#242241"
+                },
+                {
+                    "slug": "gv-color-black",
+                    "name": "Black",
+                    "color": "#000000"
+                }
+            ]
+        },
+        "custom": {
+            "headings": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--primary)"
+                }
+            }
+        },
+        "layout": {
+            "contentSize": "100vw",
+            "wideSize": "100vw"
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "blockGap": true,
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "fontFamilies": [
+                {
+                    "name": "Cormorant Garamond",
+                    "slug": "cormorant-garamond",
+                    "fontFamily": "Cormorant Garamond, serif",
+                    "fontFace": [
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_qE6GnbEi_s4Mfs.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "Cormorant Garamond"
+                        },
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnbEi_s4Mfs.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Cormorant Garamond"
+                        },
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Cormorant Garamond"
+                        },
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_iE9GnbEi_s4Mfs.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Cormorant Garamond"
+                        },
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnbEi_s4Mfs.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Cormorant Garamond"
+                        },
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDDOitk9Ifu5UQ.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "italic",
+                            "fontFamily": "Cormorant Garamond"
+                        },
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOitk9Ifu5UQ.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontFamily": "Cormorant Garamond"
+                        },
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5wDDOitk9Ifu5UQ.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "italic",
+                            "fontFamily": "Cormorant Garamond"
+                        },
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5LDfOitk9Ifu5UQ.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "italic",
+                            "fontFamily": "Cormorant Garamond"
+                        },
+                        {
+                            "src": "file:./assets/fonts/cormorant-garamond/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5FTfOitk9Ifu5UQ.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontFamily": "Cormorant Garamond"
+                        }
+                    ]
+                },
+                {
+                    "name": "Open Sans",
+                    "slug": "open-sans",
+                    "fontFamily": "Open Sans, sans-serif",
+                    "fontFace": [
+                        {
+                            "src": "file:./assets/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4iY1M2xLER.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4iY1M2xLER.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4iY1M2xLER.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4iY1M2xLER.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4iY1M2xLER.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4iY1M2xLER.woff2",
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVIUwaERZjA.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "italic",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVIUwaERZjA.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkaVIUwaERZjA.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "italic",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVIUwaERZjA.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "italic",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVIUwaERZjA.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontFamily": "Open Sans"
+                        },
+                        {
+                            "src": "file:./assets/fonts/open-sans/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVIUwaERZjA.woff2",
+                            "fontWeight": "800",
+                            "fontStyle": "italic",
+                            "fontFamily": "Open Sans"
+                        }
+                    ]
+                }
+            ],
+            "fontSizes": [
+                {
+                    "fluid": {
+                        "min": "0.875rem",
+                        "max": "1rem"
+                    },
+                    "size": "1rem",
+                    "slug": "small",
+                    "name": "Small"
+                },
+                {
+                    "fluid": {
+                        "min": "1rem",
+                        "max": "1.125rem"
+                    },
+                    "size": "1.125rem",
+                    "slug": "medium",
+                    "name": "Medium"
+                },
+                {
+                    "fluid": {
+                        "min": "1.75rem",
+                        "max": "1.875rem"
+                    },
+                    "size": "1.75rem",
+                    "slug": "large",
+                    "name": "Large"
+                },
+                {
+                    "fluid": false,
+                    "size": "2.25rem",
+                    "slug": "extra-large",
+                    "name": "Extra Large"
+                },
+                {
+                    "fluid": {
+                        "min": "4rem",
+                        "max": "10rem"
+                    },
+                    "size": "10rem",
+                    "slug": "xx-large",
+                    "name": "XX LARGE"
+                },
+                {
+                    "size": "clamp(30px, 5.556vw, 80px)",
+                    "slug": "heading-1",
+                    "name": "HEADING 1"
+                },
+                {
+                    "size": "clamp(26px, 3.055vw, 44px)",
+                    "slug": "heading-2",
+                    "name": "HEADING 2"
+                },
+                {
+                    "size": "clamp(26px, 2.222vw, 32px)",
+                    "slug": "heading-3",
+                    "name": "HEADING 3"
+                },
+                {
+                    "size": "clamp(24px, 0.018vw, 26px)",
+                    "slug": "heading-4",
+                    "name": "HEADING 4"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "spacing": {
+            "blockGap": "1.2rem"
+        },
+        "blocks": {
+            "core/post-content": {
+                "spacing": {
+                    "margin": {
+                        "top": "0px"
+                    }
+                }
+            }
+        },
+        "color": {
+            "text": "var:preset|color|seven"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var:preset|color|secondary"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var:preset|color|third"
+                    }
+                }
+            },
+            "button": {
+                "color": {
+                    "background": "var:preset|color|secondary",
+                    "text": "var:preset|color|white"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--open-sans)",
+                    "fontWeight": "regular"
+                }
+            },
+            "heading": {
+                "color": {
+                    "text": "var:preset|color|primary"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--cormorant-garamond)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--open-sans)"
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header"
+        },
+        {
+            "area": "footer",
+            "name": "footer"
+        }
+    ],
+    "version": 2
 }

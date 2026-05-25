@@ -1,462 +1,484 @@
-# Copyright (C) 2024 Jegstudio
+# Copyright (C) 2026 Jegstudio
 # This file is distributed under the GNU General Public License v3 or later..
 msgid ""
 msgstr ""
-"Project-Id-Version: Hypebiz 1.0.7\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hypebiz\n"
+"Project-Id-Version: Hypebiz 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hypebiz-rvr22H42VGnM\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-05-17T06:04:35+00:00\n"
+"POT-Creation-Date: 2026-05-21T04:07:57+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.9.0\n"
+"X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: hypebiz\n"
 
 #. Theme Name of the theme
+#: style.css
+#: inc/class/class-init.php:2846
 msgid "Hypebiz"
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://gutenverse.com/hypebiz-theme"
+#: style.css
+msgid "https://gutenverse.com/themes/hypebiz"
 msgstr ""
 
 #. Description of the theme
-msgid "Hypebiz is a modern, responsive, and clean-styled theme template for WordPress fullsite editing and is fully compatible with the Gutenverse plugin. Hypebiz is perfect for Business, Consulting Services, Consultants, Finance, Enterprises, Financial Advisors, Digital Agencies, and any type of business that provides consulting services. The templates is built ready so you don't need to build it from scratch. We want to make your experience using WordPress fullsite editor more convenient."
+#: style.css
+#: inc/class/class-init.php:2847
+msgid "Hypebiz is a Business Consulting & Consultants WordPress Block Theme designed for professionals and agencies that want to build a modern and trustworthy online presence. Built with full site editing and powered by Gutenverse, this theme provides a flexible and professional platform to showcase consulting services, business strategies, and company expertise with a clean and structured layout. Whether you manage a consulting agency or work as an independent advisor, Hypebiz helps you present your services with clarity and credibility. It is ideal for business consultants, financial advisors, marketing strategists, corporate agencies, and management professionals looking to strengthen their digital presence. With responsive layouts, customizable block patterns, and organized page structures, you can easily highlight services, case studies, team profiles, and client testimonials. Optimized for performance and usability, Hypebiz enables you to create a reliable website that reflects your brand identity and expertise in Business Consulting & Consultants services. If you are looking for a scalable and professional solution, Hypebiz is a dependable Business Consulting & Consultants WordPress theme to grow your consulting business online."
 msgstr ""
 
 #. Author of the theme
+#: style.css
 msgid "Jegstudio"
 msgstr ""
 
 #. Author URI of the theme
+#: style.css
 msgid "https://gutenverse.com"
 msgstr ""
 
 #: inc/class/class-block-patterns.php:57
-msgid "Hypebiz Basic Patterns"
+msgid "Hypebiz Core Patterns"
 msgstr ""
 
 #: inc/class/class-block-patterns.php:61
 msgid "Hypebiz Gutenverse Patterns"
 msgstr ""
 
-#: inc/class/class-block-styles.php:58
-msgid "Button Custom 1"
+#: inc/class/class-block-patterns.php:62
+msgid "Hypebiz Gutenverse PRO Patterns"
 msgstr ""
 
-#: inc/class/class-block-styles.php:66
-msgid "Button Custom 2"
+#: inc/class/class-init.php:2848
+msgid "Plugin Requirement"
 msgstr ""
 
-#: inc/class/class-block-styles.php:74
-msgid "Button Custom 3"
+#: inc/class/class-init.php:2849
+msgid "This theme require some plugins. Please make sure all the plugin below are installed and activated."
 msgstr ""
 
-#: inc/class/class-block-styles.php:82
-msgid "Button Custom 4"
+#: inc/class/class-init.php:2855
+msgid "Install Gutenverse Plugin"
 msgstr ""
 
-#: inc/class/class-block-styles.php:90
-#: inc/class/class-block-styles.php:98
-#: inc/class/class-block-styles.php:106
-#: inc/class/class-block-styles.php:138
-#: inc/class/class-block-styles.php:146
-#: inc/class/class-block-styles.php:154
-msgid "Box Shadow"
+#: inc/class/class-init.php:2856
+msgid "Activate Gutenverse Plugin"
 msgstr ""
 
-#: inc/class/class-block-styles.php:114
-#: inc/class/class-block-styles.php:122
-#: inc/class/class-block-styles.php:130
-#: inc/class/class-block-styles.php:162
-#: inc/class/class-block-styles.php:170
-#: inc/class/class-block-styles.php:178
-msgid "Box Shadow on Hover"
+#: inc/class/class-init.php:2857
+msgid "Gutenverse Plugin Installed"
 msgstr ""
 
-#: inc/class/class-init.php:1494
-msgid "Install Required Plugins"
-msgstr ""
-
-#: inc/class/class-init.php:1742
-msgid "Take Your Website To New Height with"
-msgstr ""
-
-#: inc/class/class-init.php:1743
-msgid "Hypebiz theme work best with Gutenverse plugin. By installing Gutenverse plugin you may access Hypebiz templates built with Gutenverse and get access to more than 40 free blocks, hundred free Layout and Section."
-msgstr ""
-
-#: inc/class/class-init.php:1781
-msgid "Please install newer version of Gutenverse plugin! (v1.1.2 and above)"
-msgstr ""
-
-#: inc/class/class-init.php:1826
-msgid "Primary"
-msgstr ""
-
-#: inc/class/class-upgrader.php:123
-#: inc/class/class-upgrader.php:169
-msgid "%s Upgrade Notice!"
-msgstr ""
-
-#: inc/class/class-upgrader.php:125
-msgid "There are some new exciting updates we want to announce. This update will required the latest version of Gutenverse plugin to work smoothly, so we recommend to update your Gutenverse plugin."
-msgstr ""
-
-#: inc/class/class-upgrader.php:131
-msgid "Go to plugin page"
-msgstr ""
-
-#: inc/class/class-upgrader.php:135
-#: inc/class/class-upgrader.php:179
-msgid "Close notification"
-msgstr ""
-
-#: inc/class/class-upgrader.php:171
-msgid "We've made some changes to page content layout and global style. Please check "
-msgstr ""
-
-#: inc/class/class-upgrader.php:172
-msgid "your pages"
-msgstr ""
-
-#: inc/class/class-upgrader.php:173
-msgid " to see how the new layout looks on your site. You can always revert back by enable the inherit layout option on the "
-msgstr ""
-
-#: inc/class/class-upgrader.php:174
-msgid "Gutenverse settings."
-msgstr ""
-
-#: inc/class/class-upgrader.php:175
-msgid " dashboard. Learn more about new layout on "
-msgstr ""
-
-#: inc/class/class-upgrader.php:176
-msgid "this page."
-msgstr ""
-
-#: inc/class/class-upgrader.php:181
-msgid "Got Question?"
-msgstr ""
-
-#: inc/patterns/core-404-hero.php:6
-msgid "Core 404 Hero"
-msgstr ""
-
-#: inc/patterns/core-archive-hero.php:6
-msgid "Core Archive Hero"
-msgstr ""
-
-#: inc/patterns/core-archive-section-1.php:6
-msgid "Core Archive Section 1"
-msgstr ""
-
-#: inc/patterns/core-footer.php:6
-msgid "Core Footer"
-msgstr ""
-
-#: inc/patterns/core-header.php:6
-msgid "Core Header"
-msgstr ""
-
-#: inc/patterns/core-home-hero.php:6
-msgid "Core Home Hero"
-msgstr ""
-
-#: inc/patterns/core-home-section-1.php:6
-msgid "Core Hero Style 2"
-msgstr ""
-
-#: inc/patterns/core-home-section-2.php:6
-msgid "Core Services"
-msgstr ""
-
-#: inc/patterns/core-home-section-3.php:6
-msgid "Core Funfact"
-msgstr ""
-
-#: inc/patterns/core-home-section-4.php:6
-msgid "Core Feature"
-msgstr ""
-
-#: inc/patterns/core-home-section-5.php:6
-msgid "Core Feature 2"
-msgstr ""
-
-#: inc/patterns/core-home-section-6.php:6
-msgid "Core Client Logo"
-msgstr ""
-
-#: inc/patterns/core-home-section-7.php:6
-msgid "Core Testimonials"
-msgstr ""
-
-#: inc/patterns/core-home-section-8.php:6
-msgid "Core Call To Action"
-msgstr ""
-
-#: inc/patterns/core-home-section-9.php:6
-msgid "Core Contact Info"
-msgstr ""
-
-#: inc/patterns/core-index-hero.php:6
-msgid "Core Index Hero"
-msgstr ""
-
-#: inc/patterns/core-index-section-1.php:6
-msgid "Core Index Section 1"
-msgstr ""
-
-#: inc/patterns/core-page-hero.php:6
-msgid "Core Page Hero"
-msgstr ""
-
-#: inc/patterns/core-page-section-1.php:6
-msgid "Core Page Section 1"
-msgstr ""
-
-#: inc/patterns/core-search-hero.php:6
-msgid "Core Search Hero"
-msgstr ""
-
-#: inc/patterns/core-search-section-1.php:6
-msgid "Core Search Section 1"
-msgstr ""
-
-#: inc/patterns/core-search-section-2.php:6
-msgid "Core Search Section 2"
-msgstr ""
-
-#: inc/patterns/core-single-hero.php:6
-msgid "Core Single Hero"
-msgstr ""
-
-#: inc/patterns/core-single-section-1.php:6
-msgid "Core Single Section 1"
-msgstr ""
-
-#: inc/patterns/core-single-section-2.php:6
-msgid "Core Single Section 2"
-msgstr ""
-
-#: inc/patterns/core-single-section-3.php:6
-msgid "Core Single Section 3"
-msgstr ""
-
-#: inc/patterns/gutenverse-404-hero.php:6
-msgid "Gutenverse 404 Hero"
-msgstr ""
-
-#: inc/patterns/gutenverse-about-hero.php:6
-msgid "Gutenverse About Hero"
-msgstr ""
-
-#: inc/patterns/gutenverse-about-section-1.php:6
-msgid "Gutenverse About Section 1"
-msgstr ""
-
-#: inc/patterns/gutenverse-about-section-2.php:6
-msgid "Gutenverse About Section 2"
-msgstr ""
-
-#: inc/patterns/gutenverse-about-section-3.php:6
-#: inc/patterns/gutenverse-about-section-8.php:6
+#: inc/class/class-init.php:2871
+#: inc/class/class-plugin-notice.php:90
 msgid "Gutenverse"
 msgstr ""
 
-#: inc/patterns/gutenverse-about-section-4.php:6
-msgid "Gutenverse About Section 4"
+#: inc/class/class-init.php:2872
+#: inc/class/class-plugin-notice.php:91
+msgid "Gutenverse is a WordPress blocks plugin, page builder, and website builder for the native Block Editor and Site Editor. Create fast, responsive websites without code using 57 blocks, 600+ templates, global styles, responsive controls, popup builder tools, and block theme support."
 msgstr ""
 
-#: inc/patterns/gutenverse-about-section-5.php:6
-msgid "Gutenverse About Section 5"
+#: inc/class/class-init.php:2885
+#: inc/class/class-plugin-notice.php:104
+msgid "Gutenverse Form"
 msgstr ""
 
-#: inc/patterns/gutenverse-about-section-6.php:6
-msgid "Gutenverse About Section 6"
+#: inc/class/class-init.php:2886
+#: inc/class/class-plugin-notice.php:105
+msgid "Gutenverse Form is a WordPress form plugin, contact form builder, block form plugin, and booking form builder for the native Block Editor. Create contact forms, booking forms, reservation forms, subscribe forms, lead forms, feedback forms, and custom WordPress forms without code."
 msgstr ""
 
-#: inc/patterns/gutenverse-about-section-7.php:6
-msgid "Gutenverse About Section 7"
+#: inc/class/class-init.php:2898
+#: inc/class/class-plugin-notice.php:117
+msgid "Gutenverse Companion"
 msgstr ""
 
-#: inc/patterns/gutenverse-archive-hero.php:6
+#: inc/class/class-init.php:2899
+#: inc/class/class-plugin-notice.php:118
+msgid "A companion plugin designed specifically to enhance and extend the functionality of Gutenverse base themes. This plugin integrates seamlessly with the base themes, providing additional features, customization options, and advanced tools to optimize the overall user experience and streamline the development process."
+msgstr ""
+
+#: inc/class/class-init.php:2925
+msgid "Hypebiz PRO"
+msgstr ""
+
+#: inc/class/class-init.php:2988
+msgid "You don't have any demo activated"
+msgstr ""
+
+#: inc/class/class-init.php:3056
+#: inc/class/class-init.php:3058
+#: inc/class/class-init.php:3059
+msgid "unknown"
+msgstr ""
+
+#: inc/class/class-init.php:3061
+msgid "by"
+msgstr ""
+
+#: inc/class/class-init.php:3083
+#: inc/class/class-init.php:3084
+msgid "Hypebiz Dashboard"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:347
+msgid "Installing..."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:387
+msgid "Install Failed, Try Again"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:401
+msgid "Thank you For Installing Hypebiz Theme"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:403
+msgid "Unlock the full potential of your website with the recommended plugins."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:405
+msgid "Activate it to explore exclusive extensions, ready-to-use demo templates, and powerful features that make building your site easier and more enjoyable."
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:409
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: inc/class/class-plugin-notice.php:413
+msgid "Don\\'t refresh the page when installing recommended plugins"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-404-hero.php:6
+msgid "Core 404 Hero"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-archive-hero.php:6
+msgid "Core Archive Hero"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-footer.php:6
+msgid "Core Footer"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-header.php:6
+msgid "Core Header"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-hero.php:6
+msgid "Core Home Hero"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-section-1.php:6
+msgid "Core Why Choose Us"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-section-2.php:6
+msgid "Core Services"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-section-3.php:6
+msgid "Core Funfact"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-section-4.php:6
+msgid "Core Feature"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-section-5.php:6
+msgid "Core Feature 2"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-section-6.php:6
+msgid "Core Client Logo"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-section-7.php:6
+msgid "Core Testimonials"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-section-8.php:6
+msgid "Core Call To Action"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-home-section-9.php:6
+msgid "Core Contact Info"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-index-hero.php:6
+msgid "Core Index Hero"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-index-section-1.php:6
+msgid "Core Index Section 1"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-page-hero.php:6
+msgid "Core Page Hero"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-search-hero.php:6
+msgid "Core Search Hero"
+msgstr ""
+
+#: inc/patterns/hypebiz-core-single-hero.php:6
+msgid "Core Single Hero"
+msgstr ""
+
+#: inc/patterns/hypebiz-gutenverse-404-hero.php:6
+msgid "Gutenverse 404 Hero"
+msgstr ""
+
+#: inc/patterns/hypebiz-gutenverse-archive-hero.php:6
 msgid "Gutenverse Archive Hero"
 msgstr ""
 
-#: inc/patterns/gutenverse-archive-section-1.php:6
+#: inc/patterns/hypebiz-gutenverse-archive-section-1.php:6
 msgid "Gutenverse Archive Section 1"
 msgstr ""
 
-#: inc/patterns/gutenverse-blog-hero.php:6
-msgid "Gutenverse Blog Hero"
-msgstr ""
-
-#: inc/patterns/gutenverse-blog-section-1.php:6
-msgid "Gutenverse Blog Section 1"
-msgstr ""
-
-#: inc/patterns/gutenverse-blog-section-2.php:6
-msgid "Gutenverse Blog Section 2"
-msgstr ""
-
-#: inc/patterns/gutenverse-contact-hero.php:6
-msgid "Gutenverse Contact Hero"
-msgstr ""
-
-#: inc/patterns/gutenverse-contact-section-1.php:6
-msgid "Gutenverse Contact Section 1"
-msgstr ""
-
-#: inc/patterns/gutenverse-contact-section-2.php:6
-msgid "Gutenverse Contact Section 2"
-msgstr ""
-
-#: inc/patterns/gutenverse-footer.php:6
+#: inc/patterns/hypebiz-gutenverse-footer.php:6
 msgid "Gutenverse Footer"
 msgstr ""
 
-#: inc/patterns/gutenverse-header.php:6
+#: inc/patterns/hypebiz-gutenverse-header.php:6
 msgid "Gutenverse Header"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-hero.php:6
+#: inc/patterns/hypebiz-gutenverse-home-hero.php:6
 msgid "Gutenverse Home Hero"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-section-1.php:6
+#: inc/patterns/hypebiz-gutenverse-home-section-1.php:6
 msgid "Gutenverse Home Section 1"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-section-2.php:6
+#: inc/patterns/hypebiz-gutenverse-home-section-2.php:6
 msgid "Gutenverse Home Section 2"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-section-3.php:6
+#: inc/patterns/hypebiz-gutenverse-home-section-3.php:6
 msgid "Gutenverse Home Section 3"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-section-4.php:6
+#: inc/patterns/hypebiz-gutenverse-home-section-4.php:6
 msgid "Gutenverse Home Section 4"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-section-5.php:6
+#: inc/patterns/hypebiz-gutenverse-home-section-5.php:6
 msgid "Gutenverse Home Section 5"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-section-6.php:6
+#: inc/patterns/hypebiz-gutenverse-home-section-6.php:6
 msgid "Gutenverse Home Section 6"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-section-7.php:6
+#: inc/patterns/hypebiz-gutenverse-home-section-7.php:6
 msgid "Gutenverse Home Section 7"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-section-8.php:6
+#: inc/patterns/hypebiz-gutenverse-home-section-8.php:6
 msgid "Gutenverse Home Section 8"
 msgstr ""
 
-#: inc/patterns/gutenverse-home-section-9.php:6
+#: inc/patterns/hypebiz-gutenverse-home-section-9.php:6
 msgid "Gutenverse Home Section 9"
 msgstr ""
 
-#: inc/patterns/gutenverse-index-hero.php:6
+#: inc/patterns/hypebiz-gutenverse-index-hero.php:6
 msgid "Gutenverse Index Hero"
 msgstr ""
 
-#: inc/patterns/gutenverse-index-section-1.php:6
-msgid "Gutenverse Index Section 1"
-msgstr ""
-
-#: inc/patterns/gutenverse-index-section-3.php:6
+#: inc/patterns/hypebiz-gutenverse-index-section-3.php:6
 msgid "Gutenverse Index Section 2"
 msgstr ""
 
-#: inc/patterns/gutenverse-page-hero.php:6
+#: inc/patterns/hypebiz-gutenverse-page-hero.php:6
 msgid "Gutenverse Page Hero"
 msgstr ""
 
-#: inc/patterns/gutenverse-page-section-1.php:6
+#: inc/patterns/hypebiz-gutenverse-page-section-1.php:6
 msgid "Gutenverse Page Section 1"
 msgstr ""
 
-#: inc/patterns/gutenverse-search-hero.php:6
+#: inc/patterns/hypebiz-gutenverse-search-hero.php:6
 msgid "Gutenverse Search Hero"
 msgstr ""
 
-#: inc/patterns/gutenverse-search-section-1.php:6
-msgid "Gutenverse Search Section 1"
-msgstr ""
-
-#: inc/patterns/gutenverse-search-section-2.php:6
+#: inc/patterns/hypebiz-gutenverse-search-section-2.php:6
 msgid "Gutenverse Search Section 2"
 msgstr ""
 
-#: inc/patterns/gutenverse-services-hero.php:6
-msgid "Gutenverse Services Hero"
-msgstr ""
-
-#: inc/patterns/gutenverse-services-section-1.php:6
-msgid "Gutenverse Services Section 1"
-msgstr ""
-
-#: inc/patterns/gutenverse-services-section-2.php:6
-msgid "Gutenverse Services Section 2"
-msgstr ""
-
-#: inc/patterns/gutenverse-services-section-3.php:6
-msgid "Gutenverse Services Section 3"
-msgstr ""
-
-#: inc/patterns/gutenverse-services-section-4.php:6
-msgid "Gutenverse Services Section 4"
-msgstr ""
-
-#: inc/patterns/gutenverse-services-section-5.php:6
-msgid "Gutenverse Services Section 5"
-msgstr ""
-
-#: inc/patterns/gutenverse-services-section-6.php:6
-msgid "Gutenverse Services Section 6"
-msgstr ""
-
-#: inc/patterns/gutenverse-single-post-hero.php:6
+#: inc/patterns/hypebiz-gutenverse-single-post-hero.php:6
 msgid "Gutenverse Single Post Hero"
 msgstr ""
 
-#: inc/patterns/gutenverse-single-post-section-1.php:6
+#: inc/patterns/hypebiz-gutenverse-single-post-section-1.php:6
 msgid "Gutenverse Single Post Section 1"
 msgstr ""
 
-#: inc/patterns/gutenverse-single-post-section-2.php:6
+#: inc/patterns/hypebiz-gutenverse-single-post-section-2.php:6
 msgid "Gutenverse Single Post Section 2"
 msgstr ""
 
-#: index.php:4
-msgid "This theme was built for the WordPress full-site-editing feature. You need to install and activate the Gutenberg plugin to make it work. "
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank canvas"
 msgstr ""
 
 #: theme.json
 msgctxt "Custom template name"
-msgid "Blank Canvas"
+msgid "Full Width"
 msgstr ""
 
 #: theme.json
-msgctxt "Custom template name"
-msgid "Basic Template"
+msgctxt "Color name"
+msgid "Primary (Legacy)"
 msgstr ""
 
 #: theme.json
-msgctxt "Gradient name"
-msgid "Pink to Yellow"
+msgctxt "Color name"
+msgid "Secondary (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Third (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Fourth (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Fifth (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sixth (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Seven (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Eight (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Nine (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ten (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Eleven (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Twelve (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Thirteen (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Fourteen (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Fifteen (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sixthteen (Legacy)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Seventeen (Legacy)"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
 msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text Placeholder"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent Hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background Tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border Input"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
 msgstr ""
 
 #: theme.json
@@ -466,77 +488,67 @@ msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Third"
+msgid "Dark Primary"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Fourth"
+msgid "Dark Text Primary"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Fifth"
+msgid "Dark Text Secondary"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Sixth"
+msgid "Dark Text Placeholder"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Seven"
+msgid "Dark Accent"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Eight"
+msgid "Dark Accent Hover"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Nine"
+msgid "Dark Background Primary"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Ten"
+msgid "Dark Background Secondary"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Eleven"
+msgid "Dark Background Tertiary"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Twelve"
+msgid "Dark Border"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Thirteen"
+msgid "Dark Border Input"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Fourteen"
+msgid "Dark Secondary"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Fifteen"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Sixthteen"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Seventeen"
+msgid "Black"
 msgstr ""
 
 #: theme.json
@@ -551,17 +563,12 @@ msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "Tiny"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
 msgid "Small"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "Normal"
+msgid "Medium"
 msgstr ""
 
 #: theme.json
@@ -571,15 +578,30 @@ msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "Extra large"
+msgid "Extra Large"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "Huge"
+msgid "XX LARGE"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "Gigantic"
+msgid "HEADING 1"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "HEADING 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "HEADING 3"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "HEADING 4"
 msgstr ""

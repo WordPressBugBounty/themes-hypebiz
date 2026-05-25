@@ -1,22 +1,21 @@
 <?php
 /**
- * Hypebiz functions and definitions
+ * Theme Functions
  *
  * @author Jegstudio
  * @package hypebiz
- * @since 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-defined( 'HYPEBIZ_VERSION' ) || define( 'HYPEBIZ_VERSION', '1.0.7' );
+defined( 'HYPEBIZ_VERSION' ) || define( 'HYPEBIZ_VERSION', '1.2.0' );
 defined( 'HYPEBIZ_DIR' ) || define( 'HYPEBIZ_DIR', trailingslashit( get_template_directory() ) );
-defined( 'HYPEBIZ_URI' ) || define( 'HYPEBIZ_URI', trailingslashit( get_template_directory_uri() ) );
+
+defined( 'GUTENVERSE_COMPANION_REQUIRED_VERSION' ) || define( 'GUTENVERSE_COMPANION_REQUIRED_VERSION', '2.3.3' );
+defined( 'GUTENVERSE_LIBRARY_SERVER' ) || define( 'GUTENVERSE_LIBRARY_SERVER', 'https://gutenverse.com' );
 
 require get_parent_theme_file_path( 'inc/autoload.php' );
-require get_parent_theme_file_path( 'inc/helper.php' );
-require get_parent_theme_file_path( 'inc/wptt-webfont-loader.php' );
 
 Hypebiz\Init::instance();
